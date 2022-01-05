@@ -1,0 +1,26 @@
+// //  Переменные, миксины, плейсхолдеры
+// @import './utils/variables';
+// @import './utils/breakpoints';
+
+// Basic styles
+@import './basic_styles/variables';
+@import './comon_styles/comon';
+// @import './base/container';
+// @import './base/btn';
+
+// Sections
+@import './header_section/heder.scss';
+@import './footer_styles/footer';
+
+@import './modal/modal';
+@import './movie_popular_styles/gallery';
+// @import './layouts/pagination';
+// @import './layouts/movie-modal';
+// @import './layouts/empty-library';
+@import './color-switcher/color-switcher';
+@import './preloader/preloader';
+
+// // Header components
+// @import './components/bg-image';
+// @import './components/search-form';
+@import './to-top-btn/to-top-btn';

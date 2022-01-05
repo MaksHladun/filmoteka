@@ -1,0 +1,36 @@
+
+<div id='{{id}}'>
+  <img class="img__container" src="https://image.tmdb.org/t/p/w400/{{poster_path}}" alt="{{title}}">
+  </div>
+  <div>
+  <p class="modal__title">{{title}}</p>
+
+  <table class=" modal__table" border="0" cellpadding="5">
+    <tr>
+      <td class="modal__text">Vote / Votes</td>
+      <td class="list__grade list__grade--flex"><span class="list__grade--color">{{vote_average}}</span> / <span
+          class="list__grade--color--gray">{{vote_count}}</span></td>
+    </tr>
+    <tr>
+      <td class="modal__text">Popularity</td>
+      <td class="list__grade">{{popularity}}</td>
+    </tr>
+    <tr>
+      <td class="modal__text">Original Title</td>
+      <td class="list__grade">{{original_title}}</td>
+    </tr>
+    <tr>
+      <td class="modal__text">Genre</td>
+      <td class="list__grade">{{genres}}</td>
+    </tr>
+  </table>
+  <p class="modal__about">about</p>
+  <p class="modal__desc">{{overview}}</p>
+  <div class="modal-btn">
+  <button type="button" class="modal__button modal__button-first " id="watched">add to Watched</button>
+  <button type="button" class="modal__button modal__button-second modal__button--position " id="queue">add to queue</button>
+  <button type="button" class="modal__button modal__button-first btn__disabled" id="watchedRemove">remove from Watched</button>
+  <button type="button" class="modal__button modal__button-second modal__button--position btn__disabled" id="queueRemove">remove from
+    queue</button>
+  </div>
+</div>

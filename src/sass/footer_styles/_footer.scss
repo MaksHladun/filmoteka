@@ -1,0 +1,44 @@
+.footer-container{
+  background-color: var(--backg-fot-color);
+  height: 100px;
+  padding: 29px 0px;
+
+}
+@media screen and (min-width: 768px) {
+  .footer-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}}
+
+.footer-svg{
+  width: 14px;
+  height: 14px;
+  margin: 0px 7px;
+}
+
+.footer-tex{
+  margin: 0px;
+font-size: 14px;
+
+font-weight: 400;
+line-height: 1.42;
+letter-spacing: 0em;
+text-align: center;
+color: var( --footer-tex-color);
+
+}
+.fot-flex{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link{
+  text-transform: uppercase;
+  margin-left: 5px;
+  
+  &:visited{
+    color: var( --footer-tex-color);
+  }
+}

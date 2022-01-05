@@ -1,0 +1,17 @@
+{{#each this}}
+<li class='movie__card' data-id='{{id}}' id='{{id}}'>
+  <img class='movie__poster' src="https://image.tmdb.org/t/p/w400/{{poster_path}}" alt='{{title}}'
+    data-action='{{id}}' />
+  <h1 class='movie__title'>{{original_title}}</h1>
+  <p class='movie__information'>
+    {{genres}}
+    |
+    {{release_date}}
+    <span class="vote__grade--color">{{vote_average}}</span>
+  </p>
+ 
+  <div class='card__overlay'>
+    <button type='button' class='film__button remove__queue  ' id='queueRemove-b'>remove from queue</button>
+  </div>
+</li>
+{{/each}}
