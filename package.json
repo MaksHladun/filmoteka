@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka/"
-    
   },
   "repository": {
     "type": "",
@@ -28,6 +27,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@jamesives/github-pages-deploy-action": "^4.1.9",
     "basiclightbox": "^5.0.4",
     "caniuse-lite": "^1.0.30001283",
     "lodash.debounce": "^4.0.8",
