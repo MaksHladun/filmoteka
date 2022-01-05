@@ -3,13 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+   "homepage": "https://makshladun.github.io/filmoteka",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/makshladun/filmoteka.git"
   },
   "keywords": [],
   "author": "",
